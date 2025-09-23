@@ -34,16 +34,17 @@ cd kean-credit-compass
 ```
 2. Frontend setup
 ```bash   
-cd frontend
+cd kcc-frontend
+cd my-app
 npm install
 npm start
 ```
 3. Backend setup
 ```bash   
-cd backend
+cd kcc-backend
 npm install
 npm run dev   # if using nodemon
-```
+
 ---
 
 ## 🌱 Branch Workflow
