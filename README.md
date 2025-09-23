@@ -20,10 +20,10 @@ Students can enter completed courses, and the system automatically compares them
 📂 Project Structure
 
 kean-credit-compass/
-├── frontend/   # React app (UI for course input & progress display)
-├── backend/    # Express API (handles logic & data processing)
-├── docs/       # Documentation, proposals, API design
-└── README.md   # Project documentation
+├── frontend/        # React app (UI for course input & progress display)
+├── backend/         # Express API (handles logic & data processing)
+├── docs/            # Documentation, proposals, API design
+└── README.md        # Project documentation
 
 
 ---
@@ -62,17 +62,18 @@ Branch naming convention:
 
 ---
 
-👥 Team Members
-	•	Mitch → Backend, Team Lead
-	•	George → Backend
-	•	Stone → Frontend
-	•	Feige → Frontend
-	•	Xianyang → Frontend
+## 👥 Team Members
 
+- Mitch → Backend, Team Lead  
+- George → Backend  
+- Stone → Frontend  
+- Feige → Frontend  
+- Xianyang → Frontend
+  
 ---
 
 📑 Deliverables
-	•	Deployed MVP web app
-	•	GitHub repo with source code & docs
-	•	User guide with screenshots
-	•	Final presentation & demo
+	-	Deployed MVP web app
+	-	GitHub repo with source code & docs
+	-	User guide with screenshots
+	-	Final presentation & demo
