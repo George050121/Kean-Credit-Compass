@@ -46,17 +46,18 @@ npm run dev   # if using nodemon
 ```
 ---
 
-🌱 Branch Workflow
-	-	main → always stable & production-ready
-	-	frontend-setup → for initial React app setup
-	-	backend-setup → for Express server + API skeleton
-	-	feature/ → for specific features (e.g., feature/progress-api)
+## 🌱 Branch Workflow
 
-Branch naming convention:
-	-	feature/<feature-name> → new feature development
-	-	fix/<bug-name> → bug fixes
-	-	docs/<topic> → documentation updates
+### Main branches
+- **main** → always stable & production-ready  
+- **frontend-setup** → initial React app setup  
+- **backend-setup** → Express server + API skeleton  
+- **feature/** → for specific features (e.g., `feature/progress-api`)  
 
+### Branch naming convention
+- `feature/<feature-name>` → new feature development  
+- `fix/<bug-name>` → bug fixes  
+- `docs/<topic>` → documentation updates  
 ---
 
 ## 👥 Team Members
