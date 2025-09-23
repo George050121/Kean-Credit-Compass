@@ -50,8 +50,8 @@ npm run dev   # if using nodemon
 
 ### Main branches
 - **main** → always stable & production-ready  
-- **frontend-setup** → initial React app setup  
-- **backend-setup** → Express server + API skeleton  
+- **kcc-frontend** → initial React app setup  
+- **kcc-backend** → Express server + API skeleton  
 - **feature/** → for specific features (e.g., `feature/progress-api`)  
 
 ### Branch naming convention
