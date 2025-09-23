@@ -29,22 +29,22 @@ kean-credit-compass/
 ⚙️ Setup Instructions
 
 1. Clone the repository
-
-git clone https://github.com/YOUR_USERNAME/kean-credit-compass.git
-cd kean-credit-compass
-
+'''
+	git clone https://github.com/YOUR_USERNAME/kean-credit-compass.git
+	cd kean-credit-compass
+'''
 2. Frontend setup
-
-cd frontend
-npm install
-npm start
-
+'''
+	cd frontend
+	npm install
+	npm start
+'''
 3. Backend setup
-
-cd backend
-npm install
-npm run dev   # if using nodemon
-
+'''
+	cd backend
+	npm install
+	npm run dev   # if using nodemon
+'''
 
 ⸻
 
