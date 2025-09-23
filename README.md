@@ -1,6 +1,3 @@
-# Kean-Credit-Compass
-⸻
-
 # 📘 Kean Credit Compass
 
 A lightweight web tool to help **Kean Computer Science students** track their academic progress toward graduation.  
@@ -18,7 +15,7 @@ Students can enter completed courses, and the system automatically compares them
 
 ## 📂 Project Structure
 
-⸻
+---
 
 📂 Project Structure
 
@@ -29,7 +26,7 @@ kean-credit-compass/
 └── README.md   # Project documentation
 
 
-⸻
+---
 
 ⚙️ Setup Instructions
 
@@ -50,7 +47,7 @@ cd backend
 npm install
 npm run dev   # if using nodemon
 ```
-⸻
+---
 
 🌱 Branch Workflow
 	•	main → always stable & production-ready
@@ -63,7 +60,7 @@ Branch naming convention:
 	•	fix/<bug-name> → bug fixes
 	•	docs/<topic> → documentation updates
 
-⸻
+---
 
 👥 Team Members
 	•	Mitch → Backend, Team Lead
@@ -72,7 +69,7 @@ Branch naming convention:
 	•	Feige → Frontend
 	•	Xianyang → Frontend
 
-⸻
+---
 
 📑 Deliverables
 	•	Deployed MVP web app
