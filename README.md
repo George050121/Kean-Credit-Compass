@@ -1,17 +1,22 @@
 # Kean-Credit-Compass
 ⸻
 
-📘 Kean Credit Compass
+# 📘 Kean Credit Compass
 
-A lightweight web tool to help Kean Computer Science students track their academic progress toward graduation. Students can enter completed courses, and the system automatically compares them with program requirements to show what is still outstanding.
+A lightweight web tool to help **Kean Computer Science students** track their academic progress toward graduation.  
+Students can enter completed courses, and the system automatically compares them with program requirements to show what is still outstanding.
 
-⸻
+---
 
-🚀 Project Overview
-	•	Frontend: React (TypeScript)
-	•	Backend: Node.js + Express
-	•	Database: TBD (initially JSON/CSV; can extend to SQL)
-	•	Deployment: Cloud-based (Netlify for frontend, Render/Heroku for backend)
+## 🚀 Project Overview
+- **Frontend**: React (TypeScript)  
+- **Backend**: Node.js + Express  
+- **Database**: TBD (initially JSON/CSV; can extend to SQL)  
+- **Deployment**: Cloud-based (Netlify for frontend, Render/Heroku for backend)  
+
+---
+
+## 📂 Project Structure
 
 ⸻
 
