@@ -5,15 +5,25 @@ import '../styles/LandingPage.css';
 function LandingPage() {
   const navigate = useNavigate();
 
-  // Simulate auth status (replace with real logic later)
+  // TODO: Backend Integration - Check user authentication status
+  // API Endpoint: GET /api/auth/status
+  // Response: { isAuthenticated: boolean, user: { id, name, major } }
+  // Example:
+  // const [isAuthenticated, setIsAuthenticated] = useState(false);
+  // useEffect(() => {
+  //   const checkAuth = async () => {
+  //     const response = await fetch('/api/auth/status');
+  //     const data = await response.json();
+  //     setIsAuthenticated(data.isAuthenticated);
+  //   };
+  //   checkAuth();
+  // }, []);
   const isAuthenticated = false;
 
   const handleStartLearning = () => {
-    if (isAuthenticated) {
-      navigate("/chat");
-    } else {
-      navigate("/signin");
-    }
+    // TODO: Backend Integration - If authenticated, fetch user's saved progress
+    // and redirect to appropriate page (upload or result)
+    navigate("/upload");
   };
 
   return (
@@ -21,9 +31,8 @@ function LandingPage() {
       {/* Navigation */}
       <nav className="navbar">
         <Link to="/">Home</Link>
-        <Link to="/features">Features</Link>
+        <Link to="/upload">Upload</Link>
         <Link to="/signin">Sign In</Link>
-        <Link to="/about">About</Link>
       </nav>
 
       {/* Logo Section */}
