@@ -28,13 +28,6 @@ function LandingPage() {
 
   return (
     <div className="landing-container">
-      {/* Navigation */}
-      <nav className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/upload">Upload</Link>
-        <Link to="/signin">Sign In</Link>
-      </nav>
-
       {/* Logo Section */}
       <div className="logo-section">
         <img src="/logo.png" alt="AI Study Assistant" className="logo-img" />

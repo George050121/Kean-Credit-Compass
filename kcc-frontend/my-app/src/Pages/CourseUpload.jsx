@@ -254,13 +254,8 @@ function CourseUpload() {
 
   return (
     <div className="upload-container">
-      <nav className="upload-navbar">
-        <Link to="/">Home</Link>
-        <Link to="/upload">Upload</Link>
-        <Link to="/signin">Sign In</Link>
-      </nav>
-
       <div className="upload-content">
+        <Link to="/" className="back-home-btn">Back to Home</Link>
         <h1 className="upload-title">Course Credit Checker</h1>
         <p className="upload-subtitle">Upload your completed courses to check your progress</p>
 

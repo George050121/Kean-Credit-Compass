@@ -57,12 +57,6 @@ function DegreeProgress() {
 
   return (
     <div className="progress-container">
-      <nav className="progress-navbar">
-        <Link to="/">Home</Link>
-        <Link to="/upload">Upload</Link>
-        <Link to="/signin">Sign In</Link>
-      </nav>
-
       <div className="progress-content">
         <div className="progress-header">
           <div className="progress-steps">
