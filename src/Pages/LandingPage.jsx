@@ -5,29 +5,26 @@ import '../styles/LandingPage.css';
 function LandingPage() {
   const navigate = useNavigate();
 
-  // TODO: Backend Integration - Check user authentication status
-  // API Endpoint: GET /api/auth/status
-  // Response: { isAuthenticated: boolean, user: { id, name, major } }
-  // Example:
-  // const [isAuthenticated, setIsAuthenticated] = useState(false);
-  // useEffect(() => {
-  //   const checkAuth = async () => {
-  //     const response = await fetch('/api/auth/status');
-  //     const data = await response.json();
-  //     setIsAuthenticated(data.isAuthenticated);
-  //   };
-  //   checkAuth();
-  // }, []);
+  // Simulate auth status (replace with real logic later)
   const isAuthenticated = false;
 
   const handleStartLearning = () => {
-    // TODO: Backend Integration - If authenticated, fetch user's saved progress
-    // and redirect to appropriate page (upload or result)
-    navigate("/upload");
+    if (isAuthenticated) {
+      navigate("/chat");
+    } else {
+      navigate("/signin");
+    }
   };
 
   return (
     <div className="landing-container">
+      {/* Navigation */}
+      <nav className="navbar">
+        <Link to="/">Home</Link>
+        <Link to="/features">Features</Link>
+        <Link to="/signin">Sign In</Link>
+      </nav>
+
       {/* Logo Section */}
       <div className="logo-section">
         <img src="/logo.png" alt="AI Study Assistant" className="logo-img" />
@@ -40,9 +37,9 @@ function LandingPage() {
       {/* Start Section */}
       <div className="start-section">
         <button className="start-btn" onClick={handleStartLearning}>
-          Start Checking
+          Start Learning
         </button>
-        <div className="topic-tag">Made by ...</div>
+        <div className="topic-tag">Created by ...</div>
       </div>
     </div>
   );
